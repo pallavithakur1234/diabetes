@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Diabeties Prediction </title>
+</head>
+
+
+<style>
+    body {
+      background-image: url("https://intrustcare.co.uk/wp-content/uploads/2020/06/diabetes-symptoms.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;}
+    </style>
+
+<!-- <style>
+    h1 {text-align: center;}
+    h3 {text-align: center;}
+    form {text-align: center;}
+    label {text-align: center;}
+    </style> -->
+
+<body>
+
+    <h2 style="color:rgb(236, 63, 14);"> Diabeties Prediction </h2>
+
+    <form method="POST" action = "/predict_disease">
+
+        <label>Glucose:</label>
+        <input type = "text" name = "Glucose">
+        </select>
+
+        <br>
+        <br>
+            
+    
+            
+        <label>BloodPressure:</label>
+        <input type = "text" name = "BloodPressure">
+        </select>
+
+        <br>
+        <br>
+
+        <label>SkinThicknes:</label>
+        <input type = "text" name = "SkinThicknes">
+        </Select>
+            
+        <br>
+        <br>
+
+        <label>BMI:</label>
+        <input type = "text" name = "BMI">
+        </Select>
+            
+        <br>
+        <br>
+
+        <label>Insulin:</label>
+        <input type = "text" name = "Insulin">
+        </select>
+
+        <br>
+        <br>
+
+        <label>DiabetesPedigreeFunction:</label>
+        <input type = "text" name = "DiabetesPedigreeFunction">
+        </Select>
+            
+        <br>
+        <br>
+        <label>Age:</label>
+        <input type = "text" name = "Age">
+        </Select>
+
+
+        
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+        
+        <h4 > <strong style="background-color:hwb(118 58% 13%);">
+                Prediction of diabeties Disease  is : <b > {{ prediction }} . </b></strong></h4>
+        
+    </form>
+
+        
+</body>
+</html>
