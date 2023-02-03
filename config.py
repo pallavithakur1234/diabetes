@@ -1,4 +1,4 @@
-DATA =r"csv_file/heart.csv"
+DATA = "G:/Python/workplace/diabetes/CSV_FILE/diabetes.csv"
 
 MODEL =r"G:/Python/diabetes/Artifacts/kngs.pkl"
 
